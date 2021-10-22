@@ -62,7 +62,7 @@ function startRace(){
 
 const numHorses = 5
 let horses=[]
-let horseX=[]
+let horseX=0
 
 let colors=["red","blue","purple","black","magenta"]
 
