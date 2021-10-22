@@ -90,6 +90,12 @@ function move(){
         }
 }
 
+function resetRace(){
+    for(let h=0;h<numHorses;h++){
+        horseX[h]=0
+    }
+}
+
 
 
 
