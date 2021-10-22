@@ -1,2 +1,2 @@
 # horserace
-Nicks silly horse racing game
+Saied's silly horse racing game
