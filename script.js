@@ -64,7 +64,7 @@ const numHorses = 5
 let horses=[]
 let horseX=[]
 
-let colors=["red","blue","purple","black","magenta","cyan","indigo","white","yellow","orange"]
+let colors=["red","blue","purple","black","magenta"]
 
 function startRace(){
     setInterval(move,50)
