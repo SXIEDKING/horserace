@@ -62,7 +62,7 @@ function startRace(){
 
 const numHorses = 5
 let horses=[]
-let horseX=0
+let horseX=[]
 
 let colors=["red","blue","purple","black","magenta"]
 
@@ -85,8 +85,8 @@ const finish=500
 function move(){
         for(let h=0;h<numHorses;h++){
             horses[h].style.left=horseX[h] +"px"
-            horseX[h]+= Math.floor(Math.random()*10)
-            if(horseX[h] >=finish){alert( ` ${colors[h]} horse wins`);resetRace();}
+            horseX[h] += Math.floor(Math.random()*10)
+            if(horseX[h] >=finish){alert( ` ${colors[h]} horse wins `);resetRace();}
         }
 }
 
