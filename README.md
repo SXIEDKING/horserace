@@ -1,2 +1,2 @@
 # horserace
-Saied's silly horse racing game
+Saied's horse racing game
