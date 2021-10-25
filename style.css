@@ -1,7 +1,6 @@
 body{background-color: green;}
 
-.rhorse{width:20px;position:absolute;}
-.bhorse{width:20px;position:absolute;}
-.phorse{width:20px;position:absolute;}
-.blhorse{width:20px;position:absolute;}
+.horse{
+    height:15px; width:15px; position: absolute;
+}
 
