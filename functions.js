@@ -8,6 +8,6 @@ let n = Saied */
 
  let words=["Fuck","Cunt","Twat","Slag","Wanker"]
 
- Array.splice(index,5,item)
+ Array.splice(index,1,item)
 
  console.log(words.replaceAll(`Fuck`,`****`))
