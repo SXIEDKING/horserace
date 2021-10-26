@@ -6,18 +6,6 @@ sayHello()
 
 let n = Saied */
 
- let words=["Fuck","Cunt","Twat","Slag","Wanker"]
-
- console.log(words())
-
- const search = `Fuck`
- const search = `Cunt`
- const search = `Twat`
- const search = `Slag`
- const search = `Wanker`
-
- const replaceWith = `*****`
-
- const result = replaceAll(search, replaceWith)
-
- console.log(result)
+ let cleanString = (userString) => {return userString.replace(/fuck|cunt|twat|retard|shit|wanker|cock/gi, "****")}
+ let userInput = prompt("Input a string with swear words", "you're a fucking wanker cunt")
+ alert(cleanString(userInput))
