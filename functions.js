@@ -47,4 +47,4 @@ let n = Saied */
       return encodedText
 
   }
-  alert(encode('u fakin slaaag'))
+  alert(encode('hknudxnt'))
